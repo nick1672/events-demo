@@ -16,7 +16,7 @@ on:
           - 'feat/**'
     paths-ignore:
           - '.github/workflows/*'
-          - 'src/*'
+          - 'src/**'
 
   workflow_dispatch:
 jobs:
